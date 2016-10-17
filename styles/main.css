@@ -19,3 +19,11 @@ a.undecorate {
     color: black;
     text-decoration: none;
 }
+
+#new-frame {
+    display: none;
+}
+
+#current-frame {
+    display: none;
+}

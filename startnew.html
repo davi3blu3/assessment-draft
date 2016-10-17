@@ -11,11 +11,13 @@
     </head>
     <body>
         <div class="container">
-            <h2>Is this a new or current supplier?</h2>
-            <button class="menu-btn-narrow">New</button>
-            <button class="menu-btn-narrow">Current</button>
+            <div id="select-frame">
+                <h2>Is this a new or current supplier?</h2>
+                <button id="selectNew" class="menu-btn-narrow">New</button>
+                <button id="selectCurrent" class="menu-btn-narrow">Current</button>
+            </div>
 
-            <div class="current-frame">
+            <div id="current-frame">
                 <h2>Select Current Supplier</h2>
                 <form>
                     <select>
@@ -32,7 +34,7 @@
                 </form>
             </div>
 
-            <div class="new-frame">
+            <div id="new-frame">
                 <h2>New Supplier Info</h2>
                 <form>
                     <input type="text" id="SupplierName" placeholder="Company Name"/></br>
@@ -105,5 +107,6 @@
         </div>  <!-- /container --> 
 
         <script src="scripts/main.js"></script>
+        <script src="scripts/startnew.js"></script>
     </body>
 </html>
